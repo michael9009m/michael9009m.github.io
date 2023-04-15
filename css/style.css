@@ -1,0 +1,128 @@
+
+h1{
+  color: rgb(235, 33, 33);
+  font: 55px Arial;    
+  font-family: "Lucida Handwriting";
+}
+h2{
+  color: rgb(235, 33, 33);
+  font-family: "Lucida Handwriting";
+  text-align: left;
+  padding-left: 30px;
+}
+h3{
+  color: rgb(235, 33, 33);
+  font-family: "Lucida Handwriting";
+  text-align: left;
+  padding-left: 30px;
+}
+
+p{
+    color: white;
+    font-family: "Lucida Handwriting";
+    text-align: left;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    padding-bottom: 15px;
+  }
+
+
+  p{
+    padding-left: 30px;
+  }
+    
+  .navbar {
+    overflow: hidden;
+    
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(235, 33, 33);
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(255, 152, 152);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .logo{
+    max-height: 50px;
+    max-width: 60px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    background-color: #000000;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    text-align: left;
+    font-family: "Lucida Handwriting";
+  }
+
+  footer{
+    background-color: rgb(24, 24, 24);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    column-span: all;
+  }
+  header{
+    background-color:rgb(24, 24, 24);
+  }
+  
